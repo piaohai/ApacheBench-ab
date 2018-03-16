@@ -4,10 +4,10 @@ APRUTIL=apr-util-1.5.4
 all:$(APR) $(APRUTIL) buildapr
 
 $(APR):
-	wget http://apache.techartifact.com/mirror//apr/$(APR).tar.gz
+	wget http://archive.apache.org/dist//apr/$(APR).tar.gz
 	tar -xf $(APR).tar.gz
 $(APRUTIL):
-	wget http://apache.techartifact.com/mirror//apr/$(APRUTIL).tar.gz
+	wget http://archive.apache.org/dist//apr/$(APRUTIL).tar.gz
 	tar -xf $(APRUTIL).tar.gz
 
 buildapr:
